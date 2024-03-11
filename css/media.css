@@ -1,0 +1,307 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 6 version
+*/
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1200px) {
+
+  .hero__container {
+    margin: 0 -39px;
+    padding: 0 39px;
+  }
+
+  .teachers__wrapper {
+    margin: 0 -39px;
+  }
+
+  .teachers__container {
+    padding-left: 39px;
+    padding-right: 39px;
+    }
+}
+
+@media (max-width: 992px) {
+
+  .header {
+    padding-top: 29px;
+    padding-bottom: 25px;
+  }
+
+  .hero__wrapper {
+    background-image: url(../img/hero768.svg);
+    background-size: 45.6%;
+    background-position: right 15px top 117px;
+  }
+
+  .hero__content-wrapper {
+    padding-bottom: 135px;
+  }
+
+  .hero__title {
+    padding-bottom: 15px;
+    font-size: 50px;
+  }
+
+  .about-us__row {
+    background-image: url("../img/about-us-768.svg");
+    background-size: 29.5%;
+    background-position: left 15px top 30%;
+  }
+
+  .about-us__wrapper {
+    padding-left: 35.5%;
+    padding-bottom: 24.5px;
+  }
+
+  .about-us__pictogram {
+    padding: 91px 0 15.5px;
+    background-position: 15px top;
+  }
+
+  .teachers__container {
+    padding-bottom: 48.8px;
+    }
+
+  .teachers__list {
+    row-gap: 24px;
+  }
+
+  .courses {
+    padding: 75px 0 79.5px;
+  }
+
+  .section__title_courses {
+    padding-bottom: 23px;
+  }
+
+  .courses__duration {
+    margin-right: 19px;
+  }
+
+  .card__wrapper {
+    padding-bottom: 30.5px;
+  }
+
+  .card__link {
+    padding: 20.5px 56.5px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .header {
+    padding-bottom: 28px;
+  }
+
+  .header__row {
+    row-gap: 32px;
+  }
+
+  .header__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .header__nav {
+    padding-right: 0;
+  }
+
+  .nav__list {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+
+  .hero__wrapper {
+    background-image: none;
+  }
+
+  .hero__content-wrapper {
+    padding-top: 78.5px;
+  }
+
+  .about-us {
+    padding-bottom: 38px;
+  }
+
+  .about-us__row {
+    background-image: url("../img/about-us-576.svg");
+    background-size: 28%;
+    background-position: left 15px top;
+   }
+
+  .about-us__wrapper {
+    padding-left: 36%;
+    padding-bottom: 23px;
+  }
+
+  .about-us__title {
+    padding-bottom: 18px;
+  }
+
+}
+
+@media (max-width: 666px) {
+  .about-us {
+    padding-bottom: 39px;
+  }
+
+  .teachers__container {
+    padding-bottom: 73px;
+  }
+
+  .card__title_course {
+    padding-bottom: 10px;
+    line-height: 130%;
+  }
+
+  .courses__duration {
+    margin-right: 21px;
+}
+
+  .courses__body {
+    min-height: 442px;
+  }
+
+  .card__link {
+    padding: 21px 48px;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 480px) {
+
+  .header {
+    padding: 27px 0;
+  }
+
+  .header__row {
+    row-gap: 22px
+  }
+
+  .header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .nav {
+    padding: 0 15px;
+    overflow-x: scroll;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+    white-space:  nowrap;
+  }
+
+  .nav__list {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+
+  .hero__container {
+    margin: 0 -15px;
+    padding: 0 15px;
+  }
+
+  .hero__content-wrapper {
+    padding: 50px 0;
+  }
+
+  .hero__text-wrapper {
+    padding-bottom: 45px;
+  }
+
+  .hero__title {
+    padding-bottom: 4px;
+    font-size: 30px;
+  }
+
+  .hero__desc {
+    font-size: 16px;
+    line-height: 130%
+  }
+
+  .hero__link {
+    padding: 20.5px 53.5px;
+    font-size: 16px;
+  }
+
+  .about-us {
+    padding: 50px 0;
+  }
+
+  .about-us__row {
+    background-image: none;
+  }
+
+  .about-us__wrapper {
+    padding-left: 15px;
+    padding-bottom: 13px;
+  }
+
+  .section__title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .about-us {
+    padding: 50px 0 29px;
+  }
+
+  .about-us__title {
+    padding-bottom: 3px;
+  }
+
+  .about-us__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .about-us__pictogram {
+    padding: 11px 0 22px 110px;
+    background-position: 15px 34%;
+  }
+
+  .teachers__wrapper {
+    margin: 0 -15px;
+  }
+
+  .teachers__container {
+    padding: 45px 15px 49px;
+  }
+
+  .teachers__list {
+    row-gap: 23px
+  }
+
+  .courses {
+    padding: 43px 0 50px;
+  }
+
+  .card__title_course {
+    padding-bottom: 9px;
+  }
+
+  .card__wrapper{
+    padding-bottom: 80px;
+  }
+
+  .card__link {
+    padding: 20.5px 55.5px;
+  }
+}
