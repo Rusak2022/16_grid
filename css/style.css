@@ -316,8 +316,6 @@ html {
 }
 
 /*.about-us__wrapper::before {
-
-
   content: "";
   position: absolute;
   width: 15%;
