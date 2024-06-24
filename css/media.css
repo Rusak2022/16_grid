@@ -44,7 +44,7 @@
     padding-bottom: 59.5px;
   }
 
-  .about-us__row::before {
+  .about-us__wrapper::before {
     /*background-image: url("../img/about-us-768.svg");
     background-size: 29.5%;
     background-position: left 15px top 30%;*/
@@ -131,7 +131,7 @@
     padding-bottom: 38px;
   }
 
-  .about-us__row::before {
+  .about-us__wrapper::before {
     /*background-image: url("../img/about-us-576.svg");
     background-size: 28%;
     background-position: left 15px top;*/
@@ -252,7 +252,7 @@
     padding: 50px 0;
   }
 
-  .about-us__row::before {
+  .about-us__wrapper::before {
     display: none;
   }
 
