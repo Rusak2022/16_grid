@@ -317,15 +317,15 @@ html {
 
 .about-us__wrapper::before {
   /*background-image: url("../img/about-us-1110.svg");
-  background-size: 50%;
+  background-size: 14%;
   background-position: left 15px top 30%;
   background-repeat: no-repeat;*/
 
   content: "";
   position: absolute;
-  width: 11.1%;
-  bottom: 24.5%;
-  left: 11.5%;
+  width: 15%;
+  bottom: 5%;
+  left: 5%;
   top: 0;
   background-image: url("../img/about-us-1110.svg");
   background-size: contain;
