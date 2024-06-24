@@ -9,24 +9,17 @@
 }
 
 @media (max-width: 1200px) {
-
-  .hero__container {
-    margin: 0 -39px;
-    padding: 0 39px;
-  }
-
-  .teachers__wrapper {
-    margin: 0 -39px;
-  }
-
-  .teachers__container {
+  /* .teachers {
     padding-left: 39px;
     padding-right: 39px;
-    }
+  }*/
+
+  .courses__list {
+    row-gap: 29px;
+  }
 }
 
 @media (max-width: 992px) {
-
   .header {
     padding-top: 29px;
     padding-bottom: 25px;
@@ -43,32 +36,38 @@
   }
 
   .hero__title {
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     font-size: 50px;
   }
 
-  .about-us__row {
-    background-image: url("../img/about-us-768.svg");
+  .about-us {
+    padding-bottom: 59.5px;
+  }
+
+  .about-us__row::before {
+    /*background-image: url("../img/about-us-768.svg");
     background-size: 29.5%;
-    background-position: left 15px top 30%;
+    background-position: left 15px top 30%;*/
+    content: "";
+    position: absolute;
+    width: 27.3%;
+    bottom: 32.5%;
+    left: 5.2%;
+    top: 0;
   }
 
   .about-us__wrapper {
-    padding-left: 35.5%;
-    padding-bottom: 24.5px;
+    padding-left: 33.4%;
+    margin-bottom: 24.5px;
   }
 
   .about-us__pictogram {
-    padding: 91px 0 15.5px;
+    padding: 91px 15px 15.5px;
     background-position: 15px top;
   }
 
-  .teachers__container {
-    padding-bottom: 48.8px;
-    }
-
-  .teachers__list {
-    row-gap: 24px;
+  .teachers {
+    padding-bottom: 50.8px;
   }
 
   .courses {
@@ -76,7 +75,7 @@
   }
 
   .section__title_courses {
-    padding-bottom: 23px;
+    margin-bottom: 23px;
   }
 
   .courses__duration {
@@ -84,17 +83,15 @@
   }
 
   .card__wrapper {
-    padding-bottom: 30.5px;
+    margin-bottom: 30.5px;
   }
 
   .card__link {
     padding: 20.5px 56.5px;
   }
-
 }
 
 @media (max-width: 767px) {
-
   .header {
     padding-bottom: 28px;
   }
@@ -108,8 +105,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .header__nav {
@@ -118,8 +115,8 @@
 
   .nav__list {
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
   }
 
   .hero__wrapper {
@@ -134,21 +131,26 @@
     padding-bottom: 38px;
   }
 
-  .about-us__row {
-    background-image: url("../img/about-us-576.svg");
+  .about-us__row::before {
+    /*background-image: url("../img/about-us-576.svg");
     background-size: 28%;
-    background-position: left 15px top;
-   }
+    background-position: left 15px top;*/
+    content: "";
+    position: absolute;
+    width: 26.6%;
+    bottom: 56.5%;
+    left: 5.5%;
+    top: 0;
+  }
 
   .about-us__wrapper {
-    padding-left: 36%;
-    padding-bottom: 23px;
+
+    margin-bottom: 23px;
   }
 
   .about-us__title {
-    padding-bottom: 18px;
+    margin-bottom: 18px;
   }
-
 }
 
 @media (max-width: 666px) {
@@ -156,21 +158,35 @@
     padding-bottom: 39px;
   }
 
-  .teachers__container {
-    padding-bottom: 73px;
+  .teachers {
+    padding-top: 74px;
+    padding-bottom: 73.6px;
+  }
+
+  .teachers__list {
+    row-gap: 24px;
+  }
+
+  .courses {
+    padding-bottom: 78px;
+  }
+
+  .courses__list {
+    row-gap: 30px;
   }
 
   .card__title_course {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     line-height: 130%;
   }
 
   .courses__duration {
     margin-right: 21px;
-}
+  }
 
   .courses__body {
     min-height: 442px;
+    padding-right: 19px;
   }
 
   .card__link {
@@ -182,13 +198,12 @@
 }
 
 @media (max-width: 480px) {
-
   .header {
     padding: 27px 0;
   }
 
   .header__row {
-    row-gap: 22px
+    row-gap: 22px;
   }
 
   .header__nav {
@@ -198,22 +213,16 @@
   }
 
   .nav {
-    padding: 0 15px;
     overflow-x: scroll;
     padding-bottom: 20px;
     margin-bottom: -20px;
-    white-space:  nowrap;
+    white-space: nowrap;
   }
 
   .nav__list {
     -webkit-box-pack: start !important;
-        -ms-flex-pack: start !important;
-            justify-content: start !important;
-  }
-
-  .hero__container {
-    margin: 0 -15px;
-    padding: 0 15px;
+    -ms-flex-pack: start !important;
+    justify-content: start !important;
   }
 
   .hero__content-wrapper {
@@ -221,17 +230,17 @@
   }
 
   .hero__text-wrapper {
-    padding-bottom: 45px;
+    margin-bottom: 45px;
   }
 
   .hero__title {
-    padding-bottom: 4px;
+    margin-bottom: 4px;
     font-size: 30px;
   }
 
   .hero__desc {
     font-size: 16px;
-    line-height: 130%
+    line-height: 130%;
   }
 
   .hero__link {
@@ -243,13 +252,13 @@
     padding: 50px 0;
   }
 
-  .about-us__row {
-    background-image: none;
+  .about-us__row::before {
+    display: none;
   }
 
   .about-us__wrapper {
-    padding-left: 15px;
-    padding-bottom: 13px;
+    padding-left: 0;
+    margin-bottom: 12px;
   }
 
   .section__title {
@@ -258,50 +267,52 @@
   }
 
   .about-us {
-    padding: 50px 0 29px;
+    padding: 50px 0 30px;
   }
 
   .about-us__title {
-    padding-bottom: 3px;
+    margin-bottom: 3px;
   }
 
   .about-us__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .about-us__pictogram {
-    padding: 11px 0 22px 110px;
+    padding: 11px 10px 22px 125px;
     background-position: 15px 34%;
   }
 
-  .teachers__wrapper {
-    margin: 0 -15px;
+  .teachers {
+    padding: 45px 0 47px;
   }
 
-  .teachers__container {
-    padding: 45px 15px 49px;
-  }
-
-  .teachers__list {
-    row-gap: 23px
+  .picture-teachers {
+    margin-bottom: 26.5px;
   }
 
   .courses {
-    padding: 43px 0 50px;
+    padding: 43px 0 49px;
+  }
+
+  .courses__body {
+    min-height: 473.5px;
+    padding-right: 27px;
   }
 
   .card__title_course {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
   }
 
-  .card__wrapper{
-    padding-bottom: 80px;
+  .card__wrapper {
+    margin-bottom: 80px;
   }
 
   .card__link {
     padding: 20.5px 55.5px;
   }
+
 }
