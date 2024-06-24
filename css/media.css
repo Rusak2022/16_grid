@@ -44,21 +44,21 @@
     padding-bottom: 59.5px;
   }
 
-  .about-us__wrapper::before {
-    /*background-image: url("../img/about-us-768.svg");
-    background-size: 29.5%;
-    background-position: left 15px top 30%;*/
+  /*.about-us__wrapper::before {
     content: "";
     position: absolute;
     width: 27.3%;
     bottom: 32.5%;
     left: 5.2%;
     top: 0;
-  }
+  }*/
 
   .about-us__wrapper {
     padding-left: 33.4%;
     margin-bottom: 24.5px;
+    background-image: url("../img/about-us-768.svg");
+    background-size: 29.5%;
+    background-position: left 15px top 30%;
   }
 
   .about-us__pictogram {
@@ -131,21 +131,21 @@
     padding-bottom: 38px;
   }
 
-  .about-us__wrapper::before {
-    /*background-image: url("../img/about-us-576.svg");
-    background-size: 28%;
-    background-position: left 15px top;*/
+/*  .about-us__wrapper::before {
+   
     content: "";
     position: absolute;
     width: 26.6%;
     bottom: 56.5%;
     left: 5.5%;
     top: 0;
-  }
+  }*/
 
   .about-us__wrapper {
-
     margin-bottom: 23px;
+    background-image: url("../img/about-us-576.svg");
+    background-size: 28%;
+    background-position: left 15px top;
   }
 
   .about-us__title {
@@ -252,13 +252,14 @@
     padding: 50px 0;
   }
 
-  .about-us__wrapper::before {
+ /* .about-us__wrapper::before {
     display: none;
-  }
+  }*/
 
   .about-us__wrapper {
     padding-left: 0;
     margin-bottom: 12px;
+    background-image: none;
   }
 
   .section__title {
